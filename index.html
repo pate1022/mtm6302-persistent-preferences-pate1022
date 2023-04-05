@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My  List App</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <h1>My  List App</h1>
+    </header>
+    
+    <main>
+      <section id="list">
+        <h2>List</h2>
+        <ul id="list-items">
+         <li>Blue</li>
+         <li>Red</li>
+         <li>Violet</li>
+         <li>Green</li>
+         <li>Yellow</li>
+        </ul>
+      </section>
+      
+      <section id="preferences">
+        <h2>Preferences</h2>
+        <form id="preferences-form">
+            <label for="theme-select">Theme:</label>
+            <select id="theme-select" name="theme">
+              <option value="light">Light</option>
+              <option value="dark">Dark</option>
+              <option value="colorful">Colorful</option>
+            </select>
+            
+            <label for="list-style-select">List Style:</label>
+            <select id="list-style-select" name="list-style">
+              <option value="square">Square</option>
+              <option value="circle">Circle</option>
+              <option value="none">None</option>
+            </select>
+        </form>
+      </section>
+    </main>
+    
+    <footer>
+      <p>&copy; 2023 My Awesome List App</p>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
