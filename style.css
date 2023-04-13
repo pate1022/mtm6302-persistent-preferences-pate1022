@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     background-color: #f0f0f0;
@@ -25,5 +25,119 @@ body {
     background-color: #fff;
     padding: 10px;
     margin-top: 20px;
-  }
+  } */
+
+  /* Set default styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #f0f0f0;
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 0.5em 0;
+}
+
+aside {
+  background-color: #f0f0f0;
+  border-left: 1px solid #ccc;
+  padding: 1em;
+  width: 200px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+
+select {
+  width: 100%;
+  font-size: 1.2em;
+}
+
+/* Set theme-specific styles */
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.light {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Set list style-specific styles */
+.bullets {
+  list-style-type: disc;
+  font-size: 1.2em;
+}
+
+.numbers {
+  list-style-type: decimal;
+  font-size: 1.2em;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+select {
+  width: 100%;
+}
+
+/* Set theme-specific styles */
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.light {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Set list style-specific styles */
+.bullets {
+  list-style-type: disc;
+}
+
+.numbers {
+  list-style-type: decimal;
+}
   
